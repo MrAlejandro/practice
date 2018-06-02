@@ -1,3 +1,4 @@
+```bash
 ubuntu@ubuntu-VirtualBox:~$ strace ./copy from to
 execve("./copy", ["./copy", "from", "to"], [/* 40 vars */]) = 0
 brk(0)                                  = 0x8079000
@@ -36,3 +37,4 @@ read(3, "", 4096)                       = 0
 write(4, "first line\nsecond line\nthird lin"..., 34) = 34
 exit_group(0)                           = ?
 ubuntu@ubuntu-VirtualBox:~$ 
+```
